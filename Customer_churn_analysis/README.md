@@ -54,7 +54,7 @@ An interactive dashboard was created using Power BI to visualize:
 - Churn by Internet Service
 - Tenure Distribution by Churn
 
-![Churn Dashboard](visuals/churn_dashboard.png)
+![Churn Dashboard](visuals/Churn_Dashboard.png)
 
 
 Conclusion
