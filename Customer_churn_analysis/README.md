@@ -33,6 +33,7 @@ Analyzed relationships between churn and key variables such as contract type, te
 Built interactive dashboards with KPIs and segmentation views
 
 📊 Dashboard
+![Customer_churn_analysis](visuals/Churn_Dashboard.png)
 
 📈 Key Insights
 Customers on month-to-month contracts have the highest churn rate
