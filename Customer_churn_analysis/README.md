@@ -1,62 +1,58 @@
-Project Objective
+📉 Customer Churn Analysis Dashboard
+📌 Overview
 
-The objective of this project is to analyze customer data to understand the factors contributing to customer churn. Identifying patterns behind customer churn helps businesses improve retention strategies and reduce customer loss.
+This project analyzes telecom customer data to identify key drivers of customer churn. Using Python for data analysis and Power BI for visualization, the project provides actionable insights to help businesses improve retention strategies and reduce customer loss.
 
-Dataset
+🎯 Business Objectives
+Identify key factors influencing customer churn
+Analyze high-risk customer segments
+Evaluate the impact of pricing, tenure, and contract type on churn
+Support data-driven retention strategies
 
-The dataset contains 7,043 telecom customer records with information about demographics, services used, contract types, and billing details.
+📂 Dataset
 
-Key features include:
+The dataset contains 7,043 telecom customer records with the following attributes:
 
-- Customer demographics (Gender, Senior Citizen, Dependents)
-- Contract type
-- Internet service type
-- Monthly charges and total charges
-- Tenure (customer lifetime)
-- Payment method
-- Churn status
+Demographics: Gender, Senior Citizen, Dependents
+Contract Type
+Internet Service Type
+Billing: Monthly Charges, Total Charges
+Tenure (Customer Lifetime)
+Payment Method
+Churn Status
 
-Tools & Technologies
+🛠️ Tech Stack
+Python (Pandas, Matplotlib, Seaborn): Data cleaning and analysis
+Power BI: Interactive dashboard and KPI visualization
+Jupyter Notebook: Exploratory data analysis
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+🔍 Analytical Approach
+Performed data cleaning and preprocessing
+Conducted exploratory data analysis (EDA) to identify churn patterns
+Analyzed relationships between churn and key variables such as contract type, tenure, and pricing
+Built interactive dashboards with KPIs and segmentation views
 
-Analysis Performed
+📊 Dashboard
 
-- The project analyzes multiple factors affecting churn, including:
-- Customer churn distribution
-- Contract type vs churn
-- Tenure vs churn
-- Monthly charges vs churn
-- Internet service type vs churn
+📈 Key Insights
+Customers on month-to-month contracts have the highest churn rate
+Short-tenure customers are significantly more likely to churn
+Higher monthly charges correlate with increased churn probability
+Long-term contracts (1–2 years) improve retention significantly
+Early-stage customers are the most critical segment for retention efforts
 
-These analyses help identify patterns that influence customer retention.
+💡 Business Recommendations
+Encourage long-term contracts through incentives and discounts
+Introduce targeted onboarding programs for new customers
+Monitor and optimize pricing for high-paying customers
+Implement early retention campaigns within the first 3–6 months
+Offer personalized plans to reduce churn risk
 
-Key Business Insights
+📌 Conclusion
 
-- Customers with month-to-month contracts exhibit the highest churn rate.
-- Customers with shorter tenure are more likely to churn.
-- Customers with higher monthly charges tend to churn more frequently.
-- Long-term contracts significantly improve customer retention.
-- Retention strategies should focus on new customers and high-paying customers.
+This project demonstrates how customer data can be leveraged to identify churn drivers and improve retention strategies. The insights enable businesses to proactively target high-risk customers and enhance long-term customer value.
 
-Power BI Dashboard 
-
-An interactive dashboard was created using Power BI to visualize:
-- Total Customers
-- Churned Customers
-- Churn Rate
-- Average Monthly Charges
-- Churn by Contract Type
-- Churn by Internet Service
-- Tenure Distribution by Churn
-
-![Churn Dashboard](visuals/Churn_Dashboard.png)
-
-
-Conclusion
-
-This project highlights how customer behavior and service factors influence churn. By identifying high-risk customer segments, businesses can implement targeted retention strategies to improve customer loyalty and reduce churn rates.
+🚀 Future Enhancements
+Build predictive churn models using machine learning
+Perform cohort and lifetime value (LTV) analysis
+Integrate real-time churn monitoring dashboards
